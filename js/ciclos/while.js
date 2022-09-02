@@ -1,3 +1,4 @@
+/*
 //HALLAR EL TIPO DE CUERPO PARA MUJER
 
 
@@ -53,16 +54,18 @@
 
     }
     alert("La cantidad de veces que trataste de encontrar tu tipo de cuerpo fueron fueron: "+cont+" Espero que lo haya encontrado");
-        
+        */
 
 //DESGLOSAR
-    /*
 
+    let contador
     while( numero>0 ) {
-
-        
 
     resto = numero%10;
     numero = parseInt(numero/10);
     console.log(resto);
-    }*/
+        
+
+    }
+  
+  

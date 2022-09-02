@@ -10,57 +10,49 @@
 
     const ensalada = [uno, dos, tres, cuatro, cinco];
 
-    const joined = ensalada.join(' ♡ ');
-    alert(joined); 
+    const mezcla = ensalada.join(' ♡ ');
+    alert(mezcla); 
 */
 
+
+
 /*
+
 //PROMEDIO DE NOTAS
     
-    cantidad=prompt('Digite la CANTIDAD de notas ');
+   notas=prompt('Digite la CANTIDAD de notas ');
+   notas=parseInt(notas)
 
-    let notas= [cantidad]
-    notas=parseInt(notas)
-    let promedio=0,suma=0
-    let p
-    let nota
+    let notas = []
+    for (let p = 0; p < notas; p++) {
 
-    for (p = 0; p < notas; p++) {
+       let nota=prompt( `Indroduzca las notas en ${p} `)
 
-        nota=prompt('Indroduzca las notas')
 
-        suma=nota+suma
+      notas.push(nota)
 
-alert('al suma de sus notas' +suma)
+      console.log(notas)
 
-        promedio=suma/cantidad
+    }*/
 
+
+
+
+    let cantidad, meses = [], mes, cont;
+
+    cantidad = prompt("¿Cuantos meses quiere digitar?");
+    cantidad = parseInt(cantidad);
+    
+    for(let i = 0; i < cantidad; i++)
+    {
+        mes = prompt("Digite el nombre del mes ");
+        meses.push(mes);
+        console.log(meses);
     }
+    
+    meses.forEach(cantidad => {
 
-  
-
-
-       alert("Su promedio es "+promedio);
-       
-        if(promedio<3){
-           
-           alert('BAJO');
-        }
-        else if(promedio<4) {
-           
-           alert('BASICO');
+        console.log(cantidad,[]);
+        alert(cantidad,[],"<br>");
         
-        }
-        else if(promedio>=4 && promedio<=5) {
-            
-           alert("ALTO");
-
-        }
-        else{
-            
-            alert("SUPERIOR");
- 
-         }
-             
-       
-        */
+    });
