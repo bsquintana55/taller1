@@ -1,4 +1,4 @@
-    //Funcion por anonimo
+    /*//Funcion por anonimo
 
     //Invocar la función
     alert("Sea bienvenido a vivi, para verificar si puede entrar al bar... ")
@@ -22,4 +22,16 @@
     return edad
 
     }
-    edadVivi(edad);
+    edadVivi(edad);*/
+
+
+    let edad=function(edad){
+        mayor=(edad>=18)
+        //si
+        ?alert(`Usted es mayor de edad`)
+        //sino
+        :alert(`Usted es menor de edad`);
+    }
+    
+    let e=prompt("Por favor ingrese su edad");
+    edad(e);
